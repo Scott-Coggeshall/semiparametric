@@ -33,7 +33,7 @@ For the purposes of this project, we are not as interested in the quantile regre
 ## Flexible Modeling of Predictors through Splines
 
 
-<img src="./images/bspline.png" width="250">
+<img src="../images/bspline.png" width="250">
 
 
 ## Penalization to Control Overfitting
