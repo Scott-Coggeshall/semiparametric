@@ -1,7 +1,7 @@
 # Introduction
 
 
-![John Tukey](/images/john-tukey.png)
+![John Tukey](./images/john-tukey.png)
 
 >What the regression curve does is give a grand summary for the
 averages of the distributions corresponding to the set of of x’s.
@@ -33,14 +33,14 @@ For the purposes of this project, we are not as interested in the quantile regre
 ## Flexible Modeling of Predictors through Splines
 
 
-<img src="/images/bspline.png" width="250">
+<img src="./images/bspline.png" width="250">
 
 
 ## Penalization to Control Overfitting
 Overfitting is one of the most important phenomena in statistics. Overfitting refers to the fact that more complex models can provide excellent fits to the *data at hand* but can fail miserably when used to predict *new observations*. A rudimentary example of the overfitting phenomenon is shown below, in which an outcome Y is regressed on a single variable X using a polynomial of increasing degree.
 
 
-![overfitting](/images/overfitting.gif)
+![overfitting](./images/overfitting.gif)
 
 As the degree of the polynomial increases, the fitted curve adheres closer and closer to the data points. This reduces the in-sample error because the curve is becoming better and better at predicting the individual data points used to fit the curve. Such highly specific fits will not perform very well at predicting new data because they are too *optimistic* that future data will look exactly like past data.
 
