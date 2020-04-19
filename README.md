@@ -26,7 +26,6 @@ The [Nosos model](https://www.herc.research.va.gov/include/page.asp?id=risk-adju
 
 Quantile regression is a statistical technique for estimating characteristics of the distribution of an outcome given certain covariates. Similar to how least-squares regression can be thought of as estimating a conditional mean, quantile regression estimates a particular conditional quantile. As noted in the quote from Tukey at the beginning of this overview, quantile regresssion can be thought of as filling out the picture of the conditional distribution of the outcome given the predictors that least squares regression just begins to paint.
 
-![scatter
 
 ![scatter_twofits](./images/quant_scatter_twofits.pdf)
 
