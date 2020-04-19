@@ -26,6 +26,9 @@ The [Nosos model](https://www.herc.research.va.gov/include/page.asp?id=risk-adju
 
 Quantile regression is a statistical technique for estimating characteristics of the distribution of an outcome given certain covariates. Similar to how least-squares regression can be thought of as estimating a conditional mean, quantile regression estimates a particular conditional quantile. As noted in the quote from Tukey at the beginning of this overview, quantile regresssion can be thought of as filling out the picture of the conditional distribution of the outcome given the predictors that least squares regression just begins to paint.
 
+
+![scatter_twofits](./images/quant_scatter_twofits.pdf)
+
 For the purposes of this project, we are not as interested in the quantile regression itself as we are in the ability of quantile regression to produce binary classifications *without* introducing an artificial dichotomization of the continuous cost outcome. We prefer it over logistic regression for exactly that reason. By modeling the outcome on its original scale and delaying dichotomization into high/low cost categories until the very last modeling step, we expect to extract more information from the data and therefore produce better predictions. Details about how quantile regression can be used to produce binary classifications can be found in [Maidman and Wang, 2016](https://github.ec.va.gov/ECSO/semiparametric/blob/master/references/Maidman_Wang_2016.pdf).
 
 # Modern Statistical Model Fitting Methods
