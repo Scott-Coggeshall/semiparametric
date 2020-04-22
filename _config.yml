@@ -1,2 +1,2 @@
-theme: _layout/default.html
+theme: jekyll-theme-slate
 title: Semiparametric Quantile Regression for Prediction with Large Scale EHR Data
