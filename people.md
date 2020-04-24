@@ -1,5 +1,1 @@
----
-title: People
----
-
-This is a test
+# COMING SOON!
