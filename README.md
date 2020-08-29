@@ -36,10 +36,11 @@ of a single distribution, so the regression curve gives a
 correspondingly incomplete picture for a set of distributions.
 
 
-
+<--
 An illustration of a quantile regression curve is shown below. The
 
 ![scatter_twofits](./images/quant_scatter_twofits.png)
+-->
 
 For the purposes of this project, we are not as interested in the quantile regression itself as we are in the ability of quantile regression to produce binary classifications *without* introducing an artificial dichotomization of the continuous cost outcome. We prefer it over logistic regression for exactly that reason. By modeling the outcome on its original scale and delaying dichotomization into high/low cost categories until the very last modeling step, we expect to extract more information from the data and therefore produce better predictions. Details about how quantile regression can be used to produce binary classifications can be found in [Maidman and Wang, 2016](https://github.ec.va.gov/ECSO/semiparametric/blob/master/references/Maidman_Wang_2016.pdf).
 
