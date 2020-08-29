@@ -36,7 +36,7 @@ of a single distribution, so the regression curve gives a
 correspondingly incomplete picture for a set of distributions.
 
 
-<--
+<!--
 
 An illustration of a quantile regression curve is shown below. The
 
